@@ -46,14 +46,14 @@
         <mxCell id="0tZQpIQ3l24dlbF9kDwZ-13" value="&lt;font&gt;member&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="290" y="700" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="0tZQpIQ3l24dlbF9kDwZ-14" value="&lt;font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;PK member_id INT&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="0tZQpIQ3l24dlbF9kDwZ-13">
-          <mxGeometry x="-20" y="30" width="160" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="0tZQpIQ3l24dlbF9kDwZ-15" value="&lt;font&gt;member_email VARCHAR(100)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="0tZQpIQ3l24dlbF9kDwZ-13">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
+          <mxGeometry y="42" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0tZQpIQ3l24dlbF9kDwZ-16" value="&lt;font&gt;member_fname&lt;/font&gt; VARCHAR(50)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="0tZQpIQ3l24dlbF9kDwZ-13">
-          <mxGeometry x="7" y="90" width="161" height="30" as="geometry" />
+          <mxGeometry x="9" y="66" width="161" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0tZQpIQ3l24dlbF9kDwZ-33" value="&lt;font face=&quot;Times New Roman&quot;&gt;member_lname VARCHAR(50)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="0tZQpIQ3l24dlbF9kDwZ-13">
+          <mxGeometry x="10" y="93" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0tZQpIQ3l24dlbF9kDwZ-17" value="&lt;font face=&quot;Times New Roman&quot;&gt;membership&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="920" width="200" height="110" as="geometry" />
@@ -73,8 +73,8 @@
             <mxPoint x="389.5" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0tZQpIQ3l24dlbF9kDwZ-24" value="&lt;font face=&quot;Times New Roman&quot;&gt;one group can have many memberships&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1010" width="160" height="80" as="geometry" />
+        <mxCell id="0tZQpIQ3l24dlbF9kDwZ-24" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;one group can have many memberships,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;but each membership record belongs to only one group&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1010" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="0tZQpIQ3l24dlbF9kDwZ-25" value="group" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="560" y="920" width="200" height="80" as="geometry" />
@@ -91,8 +91,11 @@
             <mxPoint x="490" y="950.0799999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0tZQpIQ3l24dlbF9kDwZ-32" value="&lt;font face=&quot;Times New Roman&quot;&gt;one member can have &lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="830" width="120" height="80" as="geometry" />
+        <mxCell id="0tZQpIQ3l24dlbF9kDwZ-32" value="&lt;font face=&quot;Times New Roman&quot;&gt;one member can have many membership recors&lt;br&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="830" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0tZQpIQ3l24dlbF9kDwZ-14" value="&lt;font&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;PK member_id INT&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="270" y="721" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
