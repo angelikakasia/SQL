@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Page-1" id="brh3cflEjhPxXMnf6fBR">
-    <mxGraphModel dx="724" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,33 @@
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-32" value="membership_mailstatus" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-21">
           <mxGeometry x="35" y="179" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-33" value="region" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-150" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-34" value="&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;region_id PK&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-33">
+          <mxGeometry x="1" y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-35" value="region_name" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-33">
+          <mxGeometry x="11.5" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-37" value="region_abbreviation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-33">
+          <mxGeometry x="28" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-38" value="division" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-170" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-39" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;division_id PK&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-38">
+          <mxGeometry x="10" y="20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-40" value="division_name" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-38">
+          <mxGeometry x="20" y="39" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-41" value="division_superintendent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-38">
+          <mxGeometry x="44" y="58" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EPe0qUNadaAKurA8GOma-42" value="&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;region_id FK&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-38">
+          <mxGeometry x="3" y="77" width="86" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
