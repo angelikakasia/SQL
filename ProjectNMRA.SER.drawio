@@ -62,7 +62,7 @@
           <mxGeometry x="30" y="-170" width="200" height="210" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-22" value="&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;members_id FK&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry y="20" width="110" height="30" as="geometry" />
+          <mxGeometry x="-6" y="20" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-23" value="membership_expires" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
           <mxGeometry x="31" y="40" width="60" height="30" as="geometry" />
