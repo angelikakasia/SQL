@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Page-1" id="brh3cflEjhPxXMnf6fBR">
-    <mxGraphModel dx="350" dy="1277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="500" dy="1352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,34 +59,34 @@
           <mxGeometry x="-2" y="288" width="103" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-21" value="membership" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-170" width="200" height="210" as="geometry" />
+          <mxGeometry x="30" y="-170" width="220" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-22" value="&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;members_id FK&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="-6" y="20" width="110" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-22" value="&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;members_id FK INT&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="3" y="20" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-23" value="membership_expires" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="31" y="40" width="60" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-23" value="membership_expires DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="2" y="40" width="149" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-24" value="membership_joined" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="24" y="60" width="60" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-24" value="membership_joined DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="-1" y="60" width="146" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-25" value="membership_lastpay" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="27" y="80" width="60" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-25" value="membership_lastpay DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="-1" y="80" width="153" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-26" value="membership_renewed" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="31" y="100" width="60" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-26" value="membership_renewed DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="-1" y="100" width="159" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-28" value="membership_type" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="19" y="119" width="60" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-28" value="membership_type VARCHAR(20)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="-2" y="119" width="181" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-29" value="membership_meaning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="31" y="140" width="60" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-29" value="membership_meaning VARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="-2" y="140" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-30" value="membership_rollup" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="22" y="160" width="60" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-30" value="membership_rollup VARCHAR(20)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="-2" y="160" width="187" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-32" value="membership_mailstatus" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="35" y="179" width="60" height="30" as="geometry" />
+        <mxCell id="EPe0qUNadaAKurA8GOma-32" value="membership_mailstatus CHAR(1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
+          <mxGeometry x="-3" y="179" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-33" value="region" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="-90" width="200" height="90" as="geometry" />
