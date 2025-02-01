@@ -86,16 +86,16 @@
           <mxGeometry x="-4" y="75" width="202" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-38" value="division" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="640" y="-170" width="220" height="110" as="geometry" />
+          <mxGeometry x="640" y="-170" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-39" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;division_id PK INT&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-38" vertex="1">
           <mxGeometry y="20" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-40" value="division_name VARCHAR(50)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-38" vertex="1">
-          <mxGeometry x="-15" y="39" width="200" height="30" as="geometry" />
+          <mxGeometry x="-18" y="39" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-41" value="division_superintendent VARCHAR(50)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-38" vertex="1">
-          <mxGeometry y="58" width="220" height="30" as="geometry" />
+          <mxGeometry x="-6" y="58" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-44" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.016;entryY=0.59;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=ERoneToMany;startFill=0;exitX=0.038;exitY=-0.138;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Times New Roman;" parent="1" source="EPe0qUNadaAKurA8GOma-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
