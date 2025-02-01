@@ -74,10 +74,7 @@
           <mxGeometry y="52" width="169" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-21" value="membership type" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-170" width="220" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="EPe0qUNadaAKurA8GOma-22" value="&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;FK &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;members_id INT&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
-          <mxGeometry x="-3" y="92" width="127" height="30" as="geometry" />
+          <mxGeometry x="30" y="-170" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-28" value="&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;PK &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;membership_id INT&amp;nbsp; &lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
           <mxGeometry x="-32" y="40" width="202" height="30" as="geometry" />
