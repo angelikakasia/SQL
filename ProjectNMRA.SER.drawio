@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Page-1" id="brh3cflEjhPxXMnf6fBR">
-    <mxGraphModel dx="1574" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2350" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EPe0qUNadaAKurA8GOma-1" value="" style="swimlane;startSize=0;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="330" y="-649" width="280" height="690" as="geometry" />
+          <mxGeometry x="330" y="-649" width="280" height="639" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-5" value="&lt;b&gt;members&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="88" y="2" width="70" height="30" as="geometry" />
@@ -104,7 +104,7 @@
           <mxGeometry x="6.5" y="603" width="111.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-21" value="&lt;div align=&quot;center&quot;&gt;membership &lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
-          <mxGeometry x="30" y="-170" width="220" height="230" as="geometry" />
+          <mxGeometry x="30" y="-170" width="220" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-28" value="&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;PK &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;Code INT&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-21" vertex="1">
           <mxGeometry x="-59" y="19" width="202" height="30" as="geometry" />
@@ -116,7 +116,7 @@
           <mxGeometry x="-38" y="64" width="202" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-38" value="division" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="634" y="-170" width="230" height="190" as="geometry" />
+          <mxGeometry x="634" y="-170" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-39" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;PK &lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;Div_No INT&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-38" vertex="1">
           <mxGeometry x="-8" y="21" width="110" height="30" as="geometry" />
