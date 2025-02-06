@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Page-1" id="brh3cflEjhPxXMnf6fBR">
-    <mxGraphModel dx="1574" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2350" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,8 +40,8 @@
         <mxCell id="EPe0qUNadaAKurA8GOma-32" value="mailstatus CHAR(1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-36" y="330.5" width="193" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="WVBxO1W4WvaicAKb1q0A-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;FK division INT&lt;/span&gt; (&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;REFERENCES &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;division.division_no)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
-          <mxGeometry x="9.75" y="564" width="273.25" height="30" as="geometry" />
+        <mxCell id="WVBxO1W4WvaicAKb1q0A-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;FK division INT&lt;/span&gt; (&lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;REFERENCES &lt;/font&gt;&lt;font face=&quot;Times New Roman&quot;&gt;division.div_no)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
+          <mxGeometry x="-1.25" y="564" width="273.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WVBxO1W4WvaicAKb1q0A-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;FK &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;memtype INT&lt;/span&gt;( REFERENCES membership.code)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="8.75" y="311" width="265.5" height="40" as="geometry" />
@@ -91,8 +91,8 @@
         <mxCell id="EPe0qUNadaAKurA8GOma-16" value="state CHAR(2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-36.75" y="415" width="168.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;plus4&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
-          <mxGeometry x="-3" y="454" width="60" height="30" as="geometry" />
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;plus4 INT&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+          <mxGeometry x="7" y="454" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tTaD2o-HrxmLArKPDHaH-14" value="countrydesc VARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
           <mxGeometry y="519" width="170" height="30" as="geometry" />
