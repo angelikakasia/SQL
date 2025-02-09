@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.11">
   <diagram name="Page-1" id="brh3cflEjhPxXMnf6fBR">
-    <mxGraphModel dx="2085" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1900" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,13 +46,13 @@
         <mxCell id="WVBxO1W4WvaicAKb1q0A-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;FK &lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(128, 0, 255), rgb(237, 237, 237));&quot;&gt;memtype INT&lt;/span&gt;( REFERENCES membership.code)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="8.75" y="311" width="265.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;rerail DATE&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;rerail DATE&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-15" y="87" width="112" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;county VARCHAR(50)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;county VARCHAR(50)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-13.5" y="476" width="163" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;coutnry CHAR(3)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;coutnry CHAR(3)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-15.5" y="497" width="144" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-7" value="title VARCHAR(50)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
@@ -67,10 +67,10 @@
         <mxCell id="EPe0qUNadaAKurA8GOma-12" value="&lt;br&gt;suffix VARCHAR(10)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-25.75" y="227" width="178.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-10" value="&lt;font face=&quot;Times New Roman&quot;&gt;name VARCHAR(50)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-10" value="&lt;font face=&quot;Times New Roman&quot;&gt;name VARCHAR(50)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-3" y="250" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;months INT&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-11" value="&lt;font face=&quot;Times New Roman&quot;&gt;months INT&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-6" y="271" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-13" value="dob DATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
@@ -79,7 +79,7 @@
         <mxCell id="EPe0qUNadaAKurA8GOma-14" value="address1 VARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-25.75" y="351" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-12" value="&lt;font face=&quot;Times New Roman&quot;&gt;address2 VARCHAR(100)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-12" value="&lt;font face=&quot;Times New Roman&quot;&gt;address2 VARCHAR(100)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="7" y="372" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-18" value="region INT" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
@@ -91,16 +91,16 @@
         <mxCell id="EPe0qUNadaAKurA8GOma-16" value="state CHAR(2)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-36.75" y="414" width="168.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;plus4 VATCHAR(4)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;plus4 VARCHAR(4)&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-1" y="454" width="123" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-14" value="countrydesc VARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-14" value="countrydesc VARCHAR(100)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry y="519" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;regionid INT&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;regionid INT&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="-0.25" y="583" width="91.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tTaD2o-HrxmLArKPDHaH-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;regionexpires DATE&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPe0qUNadaAKurA8GOma-1">
+        <mxCell id="tTaD2o-HrxmLArKPDHaH-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;regionexpires DATE&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="EPe0qUNadaAKurA8GOma-1" vertex="1">
           <mxGeometry x="6.5" y="603" width="111.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EPe0qUNadaAKurA8GOma-21" value="&lt;div align=&quot;center&quot;&gt;membership &lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Times New Roman;align=center;" parent="1" vertex="1">
